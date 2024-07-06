@@ -2,7 +2,7 @@ import express from "express";
 import { config } from "dotenv";
 import TaskRouter from "./routes/TaskRouter.js";
 import cors from "cors";
-import { connectDB } from "./Models/db.js";
+import { connectDB } from "./models/db.js";
 
 config({
   path: "./.env",
