@@ -1,6 +1,6 @@
 import express from "express";
 import { config } from "dotenv";
-import TaskRouter from "./routes/TaskRouter.js";
+import TaskRouter from "./Routes/TaskRouter.js";
 import cors from "cors";
 import { connectDB } from "./models/db.js";
 
