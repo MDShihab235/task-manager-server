@@ -11,14 +11,9 @@ const TaskSchema = new Schema({
     type: String,
     required: true,
   },
-  // status: {
-  //   type: Boolean,
-  //   required: true,
-  // },
   status: {
-    type: String,
-    enum: ["pending", "completed"],
-    default: "pending",
+    type: Boolean,
+    required: true,
   },
 });
 
